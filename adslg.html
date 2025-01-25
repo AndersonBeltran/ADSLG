@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/adslg.css" />
+    <link rel="icon" href="img/white.PNG" />
+    <title>ADSLG</title>
+  </head>
+  <body>
+    <video autoplay loop muted plays-inline class="bg-video">
+      <source src="img/IMG_4676.mov" type="video/mp4" />
+    </video>
+    <main>
+      <form id="login">
+        <img src="img/white.PNG" alt="#" width="80" height="45" />
+        <div class="mt-4">
+          <label for="username">Username</label>
+          <input type="text" id="username" minlength="3" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" minlength="6" />
+        </div>
+        <button class="mt-4" id="loginButton" type="button" onclick="window.location.href='main.html'">Login</button>
+        <div class="auth-options">
+         
+          <a href="sign-in.html" class="link mx-4">Create an account</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
